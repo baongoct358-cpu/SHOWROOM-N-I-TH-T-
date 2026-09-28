@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="vi" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mộc Tinh Hoa – Nội Thất May Đo Phong Cách Castlery | Gỗ An Cường Chuẩn E1</title>
+  <meta name="description"
+    content="Showroom & Xưởng sản xuất nội thất may đo phong cách Castlery đương đại. Cam kết 100% ván gỗ MDF lõi xanh chống ẩm An Cường chuẩn E1 an toàn sức khỏe, phụ kiện Hafele, bảo hành 5 năm.">
+  <meta name="keywords"
+    content="nội thất castlery, nội thất may đo, gỗ an cường chuẩn e1, mdf lõi xanh chống ẩm, sofa văng bắc âu, bàn ăn mở rộng, combo nội thất chung cư">
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%231f1e1c'><path d='M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5'/></svg>">
+
+  <!-- Google Fonts: Playfair Display + Plus Jakarta Sans + Cormorant Garamond -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+    rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', '"Be Vietnam Pro"', 'system-ui', '-apple-system', 'sans-serif'],
+            serif: ['"Playfair Display"', '"Cormorant Garamond"', 'Georgia', 'serif'],
+          },
+          colors: {
+            castlery: {
+              sand: '#faf8f5',
+              warm: '#f4f1ea',
+              border: '#e8e5df',
+              charcoal: '#1f1e1c',
+              terracotta: '#a85a42',
+              olive: '#464e3e'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Castlery Custom Stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css?v=20260926_castlery_v1">
+</head>
+
+<body class="bg-castlery-sand text-[#242220] font-sans antialiased selection:bg-[#1f1e1c] selection:text-white">
+
+  <!-- ======================================================================
+       1. TOP ANNOUNCEMENT BAR (CASTLERY MARQUEE STRIP)
+       ====================================================================== -->
+  <div id="announcement-bar" class="announcement-bar py-2 px-4 text-center text-xs font-medium text-stone-700 relative z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-center gap-3">
+      <span class="inline-block w-1.5 h-1.5 rounded-full bg-[#a85a42]"></span>
+      <span>
+        Miễn phí vận chuyển &amp; lắp đặt nội thất tận nhà • Cam kết 100% ván An Cường chuẩn E1 an toàn sức khỏe • Bảo hành kết cấu 5 năm
+      </span>
+      <button type="button" id="close-announcement-btn" class="absolute right-4 text-stone-400 hover:text-stone-700" aria-label="Đóng thông báo">
+        <i data-lucide="x" class="w-3.5 h-3.5"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       2. STICKY HEADER & CLEAN NAVIGATION
+       ====================================================================== -->
+  <header id="main-header" class="sticky top-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-b border-[#e8e5df] transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+
+        <!-- Logo Castlery-Style: Mộc Tinh Hoa Studio -->
+        <a href="#home" class="flex flex-col items-start leading-none group select-none shrink-0">
+          <span class="font-serif text-2xl sm:text-[27px] font-semibold tracking-tight text-[#1f1e1c] leading-none">
+            Mộc Tinh Hoa
+          </span>
+          <span class="text-[9px] font-sans font-medium tracking-[0.26em] uppercase text-stone-400 mt-1 leading-none group-hover:text-stone-700 transition-colors">
+            Castlery Style • Xưởng May Đo
+          </span>
+        </a>
+
+        <!-- Desktop Navigation Categories -->
+        <nav class="hidden lg:flex items-center gap-7 text-[13.5px] font-medium text-stone-700 tracking-normal shrink-0">
+          <a href="#shop-by-room" class="hover:text-black transition-colors py-1">Phòng Khách</a>
+          <a href="#shop-by-room" class="hover:text-black transition-colors py-1">Phòng Ăn</a>
+          <a href="#shop-by-room" class="hover:text-black transition-colors py-1">Phòng Ngủ</a>
+          <a href="#bestsellers" class="hover:text-black transition-colors py-1">Gói Combo</a>
+          <a href="#shop-the-look" class="hover:text-black transition-colors py-1">Shop The Look</a>
+          <a href="#the-craft" class="hover:text-black transition-colors py-1">Vật Liệu E1</a>
+          <a href="#free-swatches" class="hover:text-black transition-colors py-1 text-[#a85a42] font-semibold">Nhận Mẫu Vải</a>
+        </nav>
+
+        <!-- Right Side: Search, Swatches, Quote CTA -->
+        <div class="hidden sm:flex items-center gap-4 shrink-0">
+          <a href="#bestsellers" class="text-stone-600 hover:text-stone-900 transition p-1" title="Tìm kiếm sản phẩm">
+            <i data-lucide="search" class="w-4 h-4"></i>
+          </a>
+          <a href="#free-swatches" class="text-stone-600 hover:text-stone-900 transition p-1" title="Mẫu vật liệu">
+            <i data-lucide="swatchbook" class="w-4 h-4"></i>
+          </a>
+          <button type="button"
+            class="open-quote-modal px-5 py-2.5 rounded-full text-xs font-semibold tracking-wide text-white bg-[#1f1e1c] hover:bg-black transition-all shadow-xs">
+            Báo Giá Xưởng
+          </button>
+        </div>
+
+        <!-- Mobile Menu Toggle Button -->
+        <div class="flex items-center gap-2 lg:hidden">
+          <button type="button" id="mobile-menu-btn" class="p-2 text-stone-800 hover:bg-stone-100 rounded-lg transition" aria-label="Mở menu">
+            <i data-lucide="menu" class="w-6 h-6"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div id="mobile-backdrop" class="fixed inset-0 bg-stone-900/40 z-50 backdrop-blur-xs hidden opacity-0 transition-opacity duration-200"></div>
+  <div id="mobile-drawer"
+    class="fixed top-0 right-0 bottom-0 w-80 max-w-full bg-white z-50 shadow-2xl transform translate-x-full transition-transform duration-200 ease-in-out p-6 flex flex-col justify-between overflow-y-auto">
+    <div>
+      <div class="flex items-center justify-between pb-4 border-b border-stone-200">
+        <div class="flex flex-col items-start leading-none">
+          <span class="font-serif text-xl font-semibold text-stone-900">Mộc Tinh Hoa</span>
+          <span class="text-[9px] font-sans tracking-[0.22em] uppercase text-stone-400 mt-1">Castlery Design Studio</span>
+        </div>
+        <button type="button" id="mobile-drawer-close" class="p-2 text-stone-500 hover:text-stone-900" aria-label="Đóng menu">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <nav class="flex flex-col gap-4 mt-6 text-sm font-medium text-stone-700">
+        <a href="#shop-by-room" class="mobile-nav-link hover:text-black py-1">Phòng Khách (Living)</a>
+        <a href="#shop-by-room" class="mobile-nav-link hover:text-black py-1">Phòng Ăn &amp; Bếp (Dining)</a>
+        <a href="#shop-by-room" class="mobile-nav-link hover:text-black py-1">Phòng Ngủ (Bedroom)</a>
+        <a href="#bestsellers" class="mobile-nav-link hover:text-black py-1">Gói Combo Căn Hộ</a>
+        <a href="#shop-the-look" class="mobile-nav-link hover:text-black py-1">Shop The Look (Nhà Khách Hàng)</a>
+        <a href="#the-craft" class="mobile-nav-link hover:text-black py-1">Vật Liệu Chuẩn E1 &amp; Tay Nghề</a>
+        <a href="#free-swatches" class="mobile-nav-link text-[#a85a42] font-semibold py-1">Đăng Ký Hộp Mẫu Vải/Gỗ</a>
+      </nav>
+    </div>
+
+    <div class="pt-6 border-t border-stone-200 space-y-3">
+      <a href="tel:0988256888" class="flex items-center justify-center gap-2 w-full py-2.5 rounded-xl bg-stone-100 text-stone-900 font-medium text-xs">
+        <i data-lucide="phone-call" class="w-4 h-4 text-[#a85a42]"></i>
+        <span>Hotline Kỹ Sư: 0988.256.888</span>
+      </a>
+      <button type="button" class="open-quote-modal w-full py-3 rounded-xl bg-[#1f1e1c] text-white font-semibold text-xs hover:bg-black transition">
+        Yêu Cầu Báo Giá Xưởng
+      </button>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       3. HERO SECTION (LIFESTYLE WARMTH – CASTLERY INSPIRATION)
+       ====================================================================== -->
+  <section id="home" class="relative bg-white border-b border-[#e8e5df] overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-20">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+        
+        <!-- Left Content (5 cols) -->
+        <div class="lg:col-span-5 space-y-6 text-center lg:text-left">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#f4f1ea] text-[11px] font-semibold tracking-wider uppercase text-stone-600 border border-stone-200/80">
+            <span class="w-1.5 h-1.5 rounded-full bg-[#a85a42]"></span>
+            <span>Castlery Inspired • May Đo Tại Xưởng</span>
+          </div>
+
+          <h1 class="font-serif text-3xl sm:text-5xl lg:text-[46px] font-normal text-[#1f1e1c] leading-[1.18] tracking-tight text-balance">
+            Nội Thất Cho Cuộc Sống Thực. Tinh Tế &amp; Ấm Cúng.
+          </h1>
+
+          <p class="font-sans text-stone-600 text-sm sm:text-base leading-relaxed max-w-lg mx-auto lg:mx-0 font-normal">
+            Không gian sống gia đình chuẩn phong cách Mid-Century Modern. Trực tiếp sản xuất bằng máy CNC hiện đại, cam kết 100% ván MDF lõi xanh An Cường chuẩn E1 an toàn sức khỏe, phụ kiện giảm chấn cao cấp.
+          </p>
+
+          <!-- 2 Contrasting Flat CTAs -->
+          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3.5 pt-2">
+            <a href="#bestsellers"
+              class="w-full sm:w-auto px-8 py-3.5 rounded-lg bg-[#1f1e1c] hover:bg-black text-white text-xs sm:text-sm font-semibold tracking-wide transition-all shadow-sm flex items-center justify-center gap-2">
+              <span>Khám Phá Phòng Khách</span>
+              <i data-lucide="arrow-right" class="w-4 h-4"></i>
+            </a>
+            <a href="#free-swatches"
+              class="w-full sm:w-auto px-6 py-3.5 rounded-lg bg-white hover:bg-stone-50 text-stone-900 border border-[#e8e5df] text-xs sm:text-sm font-medium tracking-wide transition-all flex items-center justify-center gap-2">
+              <i data-lucide="package" class="w-4 h-4 text-[#a85a42]"></i>
+              <span>Nhận Hộp Mẫu Vải Miễn Phí</span>
+            </a>
+          </div>
+
+          <!-- Quality Strip -->
+          <div class="pt-6 border-t border-[#f0ede8] grid grid-cols-3 gap-4 text-left">
+            <div>
+              <div class="text-xs font-bold text-stone-900">Chuẩn E1</div>
+              <div class="text-[11px] text-stone-500">An toàn cho trẻ nhỏ</div>
+            </div>
+            <div>
+              <div class="text-xs font-bold text-stone-900">Giá Xưởng</div>
+              <div class="text-[11px] text-stone-500">Tiết kiệm 20% - 30%</div>
+            </div>
+            <div>
+              <div class="text-xs font-bold text-stone-900">5 Năm</div>
+              <div class="text-[11px] text-stone-500">Bảo hành kết cấu gỗ</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Large Lifestyle Banner (7 cols) -->
+        <div class="lg:col-span-7">
+          <div class="relative rounded-2xl overflow-hidden aspect-[4/3] sm:aspect-[16/11] bg-stone-100 shadow-sm border border-[#e8e5df]">
+            <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80"
+              alt="Không gian phòng khách Castlery Style ấm cúng" class="w-full h-full object-cover">
+            
+            <!-- Floating Product Tag Card inside Hero -->
+            <div class="absolute bottom-5 left-5 bg-white/95 backdrop-blur-md p-3.5 rounded-xl border border-stone-200/80 shadow-md max-w-xs hidden sm:block">
+              <div class="text-[9.5px] uppercase font-bold tracking-widest text-[#a85a42] mb-0.5">Sản Phẩm Trong Ảnh</div>
+              <div class="text-xs font-bold text-stone-900">Sofa Văng Jonathan 3 Chỗ</div>
+              <div class="text-[11px] text-stone-500 mb-1">Vải nỉ tuyết Be cát • Khung sồi E1</div>
+              <div class="text-xs font-bold text-stone-900">13.800.000 đ</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       4. SHOP BY ROOM (MUA SẮM THEO PHÒNG)
+       ====================================================================== -->
+  <section id="shop-by-room" class="py-16 sm:py-20 bg-castlery-sand border-b border-[#e8e5df]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 pb-4 border-b border-[#e8e5df]">
+        <div>
+          <span class="text-xs font-semibold tracking-widest uppercase text-stone-400 block mb-1">Không Gian Gia Đình</span>
+          <h2 class="font-serif text-2xl sm:text-4xl text-[#1f1e1c] font-normal">
+            Mua Sắm Theo Phòng
+          </h2>
+        </div>
+        <p class="text-xs sm:text-sm text-stone-500 mt-2 md:mt-0 max-w-md">
+          Khám phá từng không gian nội thất được may đo đồng điệu về vật liệu, màu sắc và công năng sử dụng.
+        </p>
+      </div>
+
+      <!-- 4 Room Image Tiles Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        
+        <!-- 1. Living Room -->
+        <a href="#bestsellers" class="room-tile group relative rounded-xl overflow-hidden aspect-[4/5] bg-stone-200 block border border-[#e8e5df]">
+          <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=700&q=80"
+            alt="Living Room - Phòng Khách" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent"></div>
+          
+          <div class="absolute bottom-5 left-5 right-5 text-white">
+            <h3 class="font-serif text-xl sm:text-2xl font-normal mb-0.5 group-hover:text-amber-200 transition-colors">
+              Phòng Khách
+            </h3>
+            <p class="text-xs text-stone-300 font-light mb-2">Sofa văng, sofa góc L, bàn trà đôi, kệ TV</p>
+            <span class="inline-flex items-center gap-1 text-xs font-semibold text-white group-hover:translate-x-1 transition-transform">
+              Khám phá ngay &rarr;
+            </span>
+          </div>
+        </a>
+
+        <!-- 2. Dining Room -->
+        <a href="#bestsellers" class="room-tile group relative rounded-xl overflow-hidden aspect-[4/5] bg-stone-200 block border border-[#e8e5df]">
+          <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=700&q=80"
+            alt="Dining Room - Bếp & Phòng Ăn" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent"></div>
+          
+          <div class="absolute bottom-5 left-5 right-5 text-white">
+            <h3 class="font-serif text-xl sm:text-2xl font-normal mb-0.5 group-hover:text-amber-200 transition-colors">
+              Phòng Ăn &amp; Bếp
+            </h3>
+            <p class="text-xs text-stone-300 font-light mb-2">Bàn ăn mở rộng, ghế ăn bọc nệm, tủ bếp</p>
+            <span class="inline-flex items-center gap-1 text-xs font-semibold text-white group-hover:translate-x-1 transition-transform">
+              Khám phá ngay &rarr;
+            </span>
+          </div>
+        </a>
+
+        <!-- 3. Bedroom -->
+        <a href="#bestsellers" class="room-tile group relative rounded-xl overflow-hidden aspect-[4/5] bg-stone-200 block border border-[#e8e5df]">
+          <img src="https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=700&q=80"
+            alt="Bedroom - Phòng Ngủ" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent"></div>
+          
+          <div class="absolute bottom-5 left-5 right-5 text-white">
+            <h3 class="font-serif text-xl sm:text-2xl font-normal mb-0.5 group-hover:text-amber-200 transition-colors">
+              Phòng Ngủ
+            </h3>
+            <p class="text-xs text-stone-300 font-light mb-2">Giường bọc nệm, tủ áo cánh kính, tab</p>
+            <span class="inline-flex items-center gap-1 text-xs font-semibold text-white group-hover:translate-x-1 transition-transform">
+              Khám phá ngay &rarr;
+            </span>
+          </div>
+        </a>
+
+        <!-- 4. Home Office -->
+        <a href="#bestsellers" class="room-tile group relative rounded-xl overflow-hidden aspect-[4/5] bg-stone-200 block border border-[#e8e5df]">
+          <img src="https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=700&q=80"
+            alt="Home Office - Góc Làm Việc" class="w-full h-full object-cover">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/20 to-transparent"></div>
+          
+          <div class="absolute bottom-5 left-5 right-5 text-white">
+            <h3 class="font-serif text-xl sm:text-2xl font-normal mb-0.5 group-hover:text-amber-200 transition-colors">
+              Góc Làm Việc
+            </h3>
+            <p class="text-xs text-stone-300 font-light mb-2">Bàn chân sắt, giá sách kịch trần, ghế công thái</p>
+            <span class="inline-flex items-center gap-1 text-xs font-semibold text-white group-hover:translate-x-1 transition-transform">
+              Khám phá ngay &rarr;
+            </span>
+          </div>
+        </a>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       5. BESTSELLERS & PRODUCT SHOWCASE (CASTLERY DUAL-IMAGE & SWATCHES)
+       ====================================================================== -->
+  <section id="bestsellers" class="py-16 sm:py-20 bg-white border-b border-[#e8e5df]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header & Filter Tabs -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 pb-4 border-b border-[#e8e5df]">
+        <div>
+          <span class="text-xs font-semibold tracking-widest uppercase text-stone-400 block mb-1">Bộ Sưu Tập Nổi Bật</span>
+          <h2 class="font-serif text-2xl sm:text-4xl text-[#1f1e1c] font-normal">
+            Sản Phẩm May Đo Yêu Thích Nhất
+          </h2>
+        </div>
+
+        <!-- Room Filter Tabs -->
+        <div class="flex items-center gap-2 overflow-x-auto no-scrollbar pt-4 md:pt-0">
+          <button type="button" class="room-filter-btn px-4 py-2 rounded-full text-xs font-semibold bg-stone-900 text-white border border-stone-900 transition shrink-0"
+            data-room-cat="all">
+            Tất cả
+          </button>
+          <button type="button" class="room-filter-btn px-4 py-2 rounded-full text-xs font-medium bg-white text-stone-700 border border-stone-200 hover:border-stone-900 transition shrink-0"
+            data-room-cat="living">
+            Phòng Khách
+          </button>
+          <button type="button" class="room-filter-btn px-4 py-2 rounded-full text-xs font-medium bg-white text-stone-700 border border-stone-200 hover:border-stone-900 transition shrink-0"
+            data-room-cat="dining">
+            Bàn Ghế Ăn
+          </button>
+          <button type="button" class="room-filter-btn px-4 py-2 rounded-full text-xs font-medium bg-white text-stone-700 border border-stone-200 hover:border-stone-900 transition shrink-0"
+            data-room-cat="bedroom">
+            Phòng Ngủ
+          </button>
+          <button type="button" class="room-filter-btn px-4 py-2 rounded-full text-xs font-medium bg-white text-stone-700 border border-stone-200 hover:border-stone-900 transition shrink-0"
+            data-room-cat="sets">
+            Gói Combo
+          </button>
+        </div>
+      </div>
+
+      <!-- Dynamic Product Cards Grid (Populated by assets/js/main.js) -->
+      <div id="castlery-product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Rendered via JavaScript with Dual-Image Swap on Hover & Swatches -->
+      </div>
+
+      <!-- Bottom Customization Banner -->
+      <div class="mt-12 p-6 sm:p-8 rounded-2xl bg-[#faf8f5] border border-[#e8e5df] flex flex-col md:flex-row items-center justify-between gap-4">
+        <div>
+          <h4 class="font-serif text-lg sm:text-xl font-normal text-stone-900 mb-1">
+            Không tìm thấy kích thước hoặc màu sắc bạn mong muốn?
+          </h4>
+          <p class="text-xs sm:text-sm text-stone-500">
+            Xưởng Mộc Tinh Hoa nhận may đo theo kích thước thực tế căn hộ với hơn 120+ mã màu ván An Cường và chất liệu vải nỉ/da nhập khẩu.
+          </p>
+        </div>
+        <button type="button" class="open-quote-modal px-6 py-3 rounded-full bg-[#1f1e1c] hover:bg-black text-white text-xs font-semibold tracking-wide transition shrink-0">
+          Tư Vấn May Đo Riêng
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       6. SHOP THE LOOK (IN REAL HOMES WITH INTERACTIVE HOTSPOTS)
+       ====================================================================== -->
+  <section id="shop-the-look" class="py-16 sm:py-20 bg-castlery-sand border-b border-[#e8e5df]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 pb-4 border-b border-[#e8e5df]">
+        <div>
+          <span class="text-xs font-semibold tracking-widest uppercase text-stone-400 block mb-1">In Real Homes • Lookbook</span>
+          <h2 class="font-serif text-2xl sm:text-4xl text-[#1f1e1c] font-normal">
+            Không Gian Thực Tế Tại Nhà Khách Hàng
+          </h2>
+        </div>
+
+        <!-- Room Switcher Tabs -->
+        <div class="flex items-center gap-2 pt-4 md:pt-0 overflow-x-auto no-scrollbar">
+          <button type="button" class="lookbook-tab-btn active px-4 py-2 rounded-full text-xs font-semibold bg-stone-900 text-white transition shrink-0"
+            data-room-key="vinhomes">
+            2PN Vinhomes Smart City
+          </button>
+          <button type="button" class="lookbook-tab-btn px-4 py-2 rounded-full text-xs font-medium bg-white text-stone-700 border border-stone-200 hover:border-stone-900 transition shrink-0"
+            data-room-key="masteri">
+            Bếp Masteri West Heights
+          </button>
+          <button type="button" class="lookbook-tab-btn px-4 py-2 rounded-full text-xs font-medium bg-white text-stone-700 border border-stone-200 hover:border-stone-900 transition shrink-0"
+            data-room-key="ecopark">
+            Master Biệt Thự Ecopark
+          </button>
+        </div>
+      </div>
+
+      <!-- Interactive Hotspots Stage -->
+      <div class="relative rounded-2xl overflow-hidden bg-stone-900 aspect-[16/9] sm:aspect-[21/10] w-full max-h-[580px] shadow-sm border border-[#e8e5df]"
+        id="lookbook-container">
+        <!-- Background Image -->
+        <img id="lookbook-img" src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1400&q=80"
+          alt="Không gian thực tế nhà khách hàng" class="w-full h-full object-cover">
+        
+        <!-- Gradient vignette -->
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent pointer-events-none"></div>
+
+        <!-- Room Title Badge in Image -->
+        <div class="absolute bottom-5 left-5 z-20 bg-white/95 backdrop-blur-md px-4 py-2.5 rounded-xl border border-stone-200/80 shadow-md max-w-md hidden sm:block">
+          <div class="text-[10px] uppercase font-bold tracking-wider text-[#a85a42]">Dự Án Bàn Giao Thực Tế</div>
+          <div id="lookbook-title" class="text-xs sm:text-sm font-bold text-stone-900">
+            Căn Hộ 2PN Vinhomes Smart City – Phong Cách Mid-Century Warmth
+          </div>
+        </div>
+
+        <!-- Hotspots are injected dynamically by assets/js/main.js -->
+      </div>
+
+      <div class="text-center mt-4 text-xs text-stone-500">
+        <i data-lucide="info" class="w-3.5 h-3.5 inline mr-1 text-[#a85a42]"></i>
+        Nhấp vào các điểm chấm tròn màu trắng trên ảnh để xem chi tiết sản phẩm và giá xuất xưởng.
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       7. THE CRAFT & MATERIALS (VẬT LIỆU CAO CẤP & TAY NGHỀ XƯỞNG)
+       ====================================================================== -->
+  <section id="the-craft" class="py-16 sm:py-20 bg-white border-b border-[#e8e5df]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Title -->
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <span class="text-xs font-semibold tracking-widest uppercase text-stone-400 block mb-1">Triết Lý Xưởng Mộc</span>
+        <h2 class="font-serif text-2xl sm:text-4xl text-[#1f1e1c] font-normal mb-3">
+          Vật Liệu Tuyển Chọn &amp; Tay Nghề May Đo
+        </h2>
+        <p class="text-xs sm:text-sm text-stone-500 leading-relaxed">
+          Từng chi tiết được chế tác từ tình yêu dành cho gỗ và sự tận tâm với sức khỏe lâu dài của mỗi gia đình.
+        </p>
+      </div>
+
+      <!-- 4 Pillars Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Pillar 1 -->
+        <div class="p-6 rounded-2xl bg-[#faf8f5] border border-[#e8e5df] flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-white border border-stone-200 text-[#a85a42] flex items-center justify-center mb-5">
+              <i data-lucide="shield-check" class="w-6 h-6"></i>
+            </div>
+            <h3 class="font-serif text-lg font-normal text-stone-900 mb-2">
+              Vải Kháng Bẩn &amp; Thú Cưng
+            </h3>
+            <p class="text-xs text-stone-600 leading-relaxed mb-4">
+              Vải nỉ tuyết và da Microfiber công nghệ cao, trượt nước khi đổ cà phê, lau sạch dễ dàng và chống cào xước từ móng thú cưng.
+            </p>
+          </div>
+          <div class="text-[11px] font-semibold text-[#a85a42]">Spill-resistant &amp; Pet-friendly</div>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="p-6 rounded-2xl bg-[#faf8f5] border border-[#e8e5df] flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-white border border-stone-200 text-emerald-700 flex items-center justify-center mb-5">
+              <i data-lucide="trees" class="w-6 h-6"></i>
+            </div>
+            <h3 class="font-serif text-lg font-normal text-stone-900 mb-2">
+              MDF Lõi Xanh Chuẩn E1
+            </h3>
+            <p class="text-xs text-stone-600 leading-relaxed mb-4">
+              100% ván An Cường nhập khẩu có kiểm định nồng độ Formaldehyde &lt;0.1ppm, an toàn tuyệt đối cho người già, phụ nữ mang thai và trẻ nhỏ.
+            </p>
+          </div>
+          <div class="text-[11px] font-semibold text-emerald-700">Không mùi độc hại • Kháng ẩm 100%</div>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="p-6 rounded-2xl bg-[#faf8f5] border border-[#e8e5df] flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-white border border-stone-200 text-stone-800 flex items-center justify-center mb-5">
+              <i data-lucide="wrench" class="w-6 h-6"></i>
+            </div>
+            <h3 class="font-serif text-lg font-normal text-stone-900 mb-2">
+              Phụ Kiện Giảm Chấn Hafele
+            </h3>
+            <p class="text-xs text-stone-600 leading-relaxed mb-4">
+              Bản lề inox 304, ray bi âm 3 tầng và tay nâng cánh tủ cao cấp Hafele / Blum, đóng mở êm nhẹ hơn 50.000 lần không tiếng ồn.
+            </p>
+          </div>
+          <div class="text-[11px] font-semibold text-stone-800">Bảo hành phụ kiện 5 năm 1 đổi 1</div>
+        </div>
+
+        <!-- Pillar 4 -->
+        <div class="p-6 rounded-2xl bg-[#faf8f5] border border-[#e8e5df] flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-white border border-stone-200 text-[#a85a42] flex items-center justify-center mb-5">
+              <i data-lucide="factory" class="w-6 h-6"></i>
+            </div>
+            <h3 class="font-serif text-lg font-normal text-stone-900 mb-2">
+              Giá Gốc Trực Tiếp Tại Xưởng
+            </h3>
+            <p class="text-xs text-stone-600 leading-relaxed mb-4">
+              Quy mô xưởng 2.500m² tại Thạch Thất với dàn máy Homag tự động. Trực tiếp sản xuất đến tay gia chủ, tiết kiệm 20% - 30% chi phí.
+            </p>
+          </div>
+          <div class="text-[11px] font-semibold text-[#a85a42]">Tiết kiệm 20% – 30% chi phí trung gian</div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       8. FREE FABRIC & WOOD SWATCHES (HỘP MẪU VẬT LIỆU TẬN NHÀ MIỄN PHÍ)
+       ====================================================================== -->
+  <section id="free-swatches" class="py-16 sm:py-20 bg-castlery-warm border-b border-[#e8e5df]">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="bg-white rounded-2xl border border-[#e8e5df] p-8 sm:p-12 shadow-sm">
+        
+        <div class="text-center max-w-xl mx-auto mb-8">
+          <span class="text-xs font-semibold tracking-widest uppercase text-[#a85a42] block mb-1">Dịch Vụ Độc Quyền</span>
+          <h2 class="font-serif text-2xl sm:text-3xl text-stone-900 font-normal mb-2">
+            Đặt Hộp Mẫu Vải &amp; Gỗ Miễn Phí Tại Nhà
+          </h2>
+          <p class="text-xs sm:text-sm text-stone-600">
+            Xem và chạm trực tiếp vào chất liệu thực tế dưới ánh sáng căn hộ của bạn trước khi đưa ra quyết định đặt may đo.
+          </p>
+        </div>
+
+        <form id="free-swatch-form" class="space-y-6">
+          
+          <!-- Swatches Selection Grid (Choose up to 3) -->
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <label class="text-xs font-bold uppercase tracking-wider text-stone-800">
+                1. Chọn tối đa 3 mẫu vật liệu bạn muốn xem thử:
+              </label>
+              <span id="swatch-count-badge" class="text-xs font-semibold text-[#a85a42] bg-[#f4f1ea] px-2.5 py-0.5 rounded-full">
+                0/3 đã chọn
+              </span>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              
+              <label class="flex items-center gap-3 p-3 rounded-xl border border-stone-200 bg-stone-50/50 hover:bg-stone-50 cursor-pointer transition">
+                <input type="checkbox" class="free-swatch-checkbox accent-stone-900 w-4 h-4 rounded">
+                <span class="w-5 h-5 rounded-full shrink-0 border border-stone-300" style="background-color: #D7D0C5;"></span>
+                <span class="text-xs text-stone-800 font-medium">Vải Nỉ Tuyết Be Sand</span>
+              </label>
+
+              <label class="flex items-center gap-3 p-3 rounded-xl border border-stone-200 bg-stone-50/50 hover:bg-stone-50 cursor-pointer transition">
+                <input type="checkbox" class="free-swatch-checkbox accent-stone-900 w-4 h-4 rounded">
+                <span class="w-5 h-5 rounded-full shrink-0 border border-stone-300" style="background-color: #8C8882;"></span>
+                <span class="text-xs text-stone-800 font-medium">Vải Nỉ Xám Khói</span>
+              </label>
+
+              <label class="flex items-center gap-3 p-3 rounded-xl border border-stone-200 bg-stone-50/50 hover:bg-stone-50 cursor-pointer transition">
+                <input type="checkbox" class="free-swatch-checkbox accent-stone-900 w-4 h-4 rounded">
+                <span class="w-5 h-5 rounded-full shrink-0 border border-stone-300" style="background-color: #A85A42;"></span>
+                <span class="text-xs text-stone-800 font-medium">Vải Cam Đất Terracotta</span>
+              </label>
+
+              <label class="flex items-center gap-3 p-3 rounded-xl border border-stone-200 bg-stone-50/50 hover:bg-stone-50 cursor-pointer transition">
+                <input type="checkbox" class="free-swatch-checkbox accent-stone-900 w-4 h-4 rounded">
+                <span class="w-5 h-5 rounded-full shrink-0 border border-stone-300" style="background-color: #8C5332;"></span>
+                <span class="text-xs text-stone-800 font-medium">Da Microfiber Nâu Saddle</span>
+              </label>
+
+              <label class="flex items-center gap-3 p-3 rounded-xl border border-stone-200 bg-stone-50/50 hover:bg-stone-50 cursor-pointer transition">
+                <input type="checkbox" class="free-swatch-checkbox accent-stone-900 w-4 h-4 rounded">
+                <span class="w-5 h-5 rounded-full shrink-0 border border-stone-300" style="background-color: #C8A882;"></span>
+                <span class="text-xs text-stone-800 font-medium">Gỗ Sồi An Cường Chuẩn E1</span>
+              </label>
+
+              <label class="flex items-center gap-3 p-3 rounded-xl border border-stone-200 bg-stone-50/50 hover:bg-stone-50 cursor-pointer transition">
+                <input type="checkbox" class="free-swatch-checkbox accent-stone-900 w-4 h-4 rounded">
+                <span class="w-5 h-5 rounded-full shrink-0 border border-stone-300" style="background-color: #5C4033;"></span>
+                <span class="text-xs text-stone-800 font-medium">Gỗ Óc Chó An Cường Chuẩn E1</span>
+              </label>
+
+            </div>
+          </div>
+
+          <!-- User Information -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div>
+              <label for="swatch-user-name" class="block text-xs font-semibold text-stone-800 mb-1.5">Họ và tên của bạn *</label>
+              <input type="text" id="swatch-user-name" required placeholder="Ví dụ: Nguyễn Phương Linh"
+                class="w-full px-4 py-2.5 rounded-xl border border-stone-200 bg-stone-50 text-xs sm:text-sm text-stone-900 placeholder:text-stone-400 focus:outline-none focus:border-stone-900 focus:bg-white transition">
+            </div>
+
+            <div>
+              <label for="swatch-user-phone" class="block text-xs font-semibold text-stone-800 mb-1.5">Số điện thoại nhận mẫu *</label>
+              <input type="tel" id="swatch-user-phone" required placeholder="Ví dụ: 0988 256 888"
+                class="w-full px-4 py-2.5 rounded-xl border border-stone-200 bg-stone-50 text-xs sm:text-sm text-stone-900 placeholder:text-stone-400 focus:outline-none focus:border-stone-900 focus:bg-white transition">
+            </div>
+          </div>
+
+          <div>
+            <label for="swatch-user-address" class="block text-xs font-semibold text-stone-800 mb-1.5">Địa chỉ nhận hộp mẫu tại nhà *</label>
+            <input type="text" id="swatch-user-address" required placeholder="Số nhà, tòa chung cư, quận huyện..."
+              class="w-full px-4 py-2.5 rounded-xl border border-stone-200 bg-stone-50 text-xs sm:text-sm text-stone-900 placeholder:text-stone-400 focus:outline-none focus:border-stone-900 focus:bg-white transition">
+          </div>
+
+          <!-- Submit Action -->
+          <button type="submit"
+            class="w-full py-3.5 rounded-xl bg-stone-900 hover:bg-black text-white font-semibold text-xs sm:text-sm uppercase tracking-wide transition shadow-sm flex items-center justify-center gap-2">
+            <i data-lucide="send" class="w-4 h-4"></i>
+            <span>Gửi Hộp Mẫu Miễn Phí Trong 24h</span>
+          </button>
+
+          <p class="text-[11px] text-stone-400 text-center">
+            * Hoàn toàn miễn phí vận chuyển. Xưởng Mộc Tinh Hoa không thu bất kỳ khoản phụ phí nào.
+          </p>
+
+        </form>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ======================================================================
+       9. FOOTER THƯƠNG MẠI ĐIỆN TỬ QUỐC TẾ (CASTLERY-STYLE MULTI-COLUMN)
+       ====================================================================== -->
+  <footer class="bg-white text-stone-600 py-16 text-xs border-t border-[#e8e5df]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12 pb-12 border-b border-[#e8e5df]">
+        
+        <!-- Col 1: Brand Info (2 cols) -->
+        <div class="lg:col-span-2 space-y-3.5">
+          <div class="flex flex-col items-start leading-none">
+            <span class="font-serif text-2xl font-semibold text-[#1f1e1c]">Mộc Tinh Hoa</span>
+            <span class="text-[9.5px] font-sans tracking-[0.24em] uppercase text-stone-400 mt-1">Castlery Style • Made To Measure</span>
+          </div>
+          <p class="text-xs text-stone-500 leading-relaxed max-w-sm">
+            Nội thất may đo đương đại phong cách Mid-Century Modern. Trực tiếp sản xuất gỗ công nghiệp MDF lõi xanh An Cường chuẩn E1 an toàn sức khỏe với mức giá xuất xưởng minh bạch.
+          </p>
+          <div class="flex items-center gap-3 pt-2">
+            <a href="https://facebook.com" target="_blank" rel="noopener" class="w-8 h-8 rounded-full bg-stone-100 hover:bg-stone-200 flex items-center justify-center text-stone-700 transition" aria-label="Facebook">
+              <i data-lucide="facebook" class="w-4 h-4"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener" class="w-8 h-8 rounded-full bg-stone-100 hover:bg-stone-200 flex items-center justify-center text-stone-700 transition" aria-label="Instagram">
+              <i data-lucide="instagram" class="w-4 h-4"></i>
+            </a>
+            <a href="https://youtube.com" target="_blank" rel="noopener" class="w-8 h-8 rounded-full bg-stone-100 hover:bg-stone-200 flex items-center justify-center text-stone-700 transition" aria-label="Youtube">
+              <i data-lucide="youtube" class="w-4 h-4"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Showroom & Xưởng -->
+        <div class="space-y-2.5">
+          <div class="text-xs font-bold uppercase tracking-wider text-stone-900">Xưởng &amp; Showroom</div>
+          <p class="text-xs text-stone-600 leading-relaxed">
+            <strong class="text-stone-900">Xưởng sản xuất:</strong> Cụm Công Nghiệp Làng Nghề Gỗ Thạch Thất, Hà Nội (Quy mô 2.500m²).
+          </p>
+          <p class="text-xs text-stone-600 leading-relaxed">
+            <strong class="text-stone-900">Showroom trải nghiệm:</strong> Tầng 2, Tòa Nhà Triển Lãm Nội Thất, Hà Đông, Hà Nội.
+          </p>
+          <p class="text-xs text-stone-600">
+            <strong class="text-stone-900">Hotline:</strong> 0988.256.888
+          </p>
+        </div>
+
+        <!-- Col 3: Customer Care -->
+        <div class="space-y-2.5">
+          <div class="text-xs font-bold uppercase tracking-wider text-stone-900">Dịch Vụ Khách Hàng</div>
+          <ul class="space-y-1.5 text-xs text-stone-500">
+            <li>• Miễn phí khảo sát &amp; đo đạc tận nhà</li>
+            <li>• Lên bản vẽ phối cảnh 3D không giới hạn</li>
+            <li>• Bảo hành kết cấu gỗ 5 năm tận tâm</li>
+            <li>• Bảo trì phụ kiện Hafele trọn đời</li>
+            <li>• Hướng dẫn bảo quản da &amp; nỉ tuyết</li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Shop By Category -->
+        <div class="space-y-2.5">
+          <div class="text-xs font-bold uppercase tracking-wider text-stone-900">Sản Phẩm May Đo</div>
+          <ul class="space-y-1.5 text-xs text-stone-500">
+            <li><a href="#shop-by-room" class="hover:text-stone-900 transition">Sofa &amp; Bàn Trà Phòng Khách</a></li>
+            <li><a href="#shop-by-room" class="hover:text-stone-900 transition">Bàn Ăn Mở Rộng &amp; Ghế Ăn</a></li>
+            <li><a href="#shop-by-room" class="hover:text-stone-900 transition">Giường Bọc Nệm &amp; Tủ Áo</a></li>
+            <li><a href="#bestsellers" class="hover:text-stone-900 transition">Combo Căn Hộ Trọn Gói</a></li>
+            <li><a href="#free-swatches" class="hover:text-stone-900 transition">Đặt Hộp Mẫu Vải Miễn Phí</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="flex flex-col sm:flex-row items-center justify-between text-[11px] text-stone-400 gap-3">
+        <div>
+          © 2026 Mộc Tinh Hoa – Castlery Style. Bản quyền thuộc về Xưởng Nội Thất Mộc Tinh Hoa.
+        </div>
+        <div class="flex items-center gap-4">
+          <a href="#home" class="hover:text-stone-700 transition">Chính sách bảo mật</a>
+          <a href="#the-craft" class="hover:text-stone-700 transition">Tiêu chuẩn gỗ E1</a>
+          <a href="#home" class="hover:text-stone-700 transition">Điều khoản may đo</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ======================================================================
+       10. QUICK VIEW MODAL (XEM NHANH & TÙY BIẾN MÀU SẮC CHUẨN CASTLERY)
+       ====================================================================== -->
+  <div id="quick-view-modal" class="modal-backdrop fixed inset-0 bg-stone-950/65 z-50 flex items-center justify-center p-4">
+    <div class="modal-box bg-white rounded-2xl max-w-3xl w-full p-6 sm:p-8 shadow-2xl relative max-h-[90vh] overflow-y-auto border border-[#e8e5df]">
+      <button type="button" id="quick-view-close" class="absolute top-5 right-5 text-stone-400 hover:text-stone-900 transition p-1" aria-label="Đóng">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+        
+        <!-- Left: Image Gallery -->
+        <div>
+          <div class="aspect-[4/3] rounded-xl overflow-hidden bg-stone-100 mb-3 border border-[#e8e5df]">
+            <img id="qv-img-primary" src="" alt="Sản phẩm xem nhanh" class="w-full h-full object-cover">
+          </div>
+          <div class="inline-block px-2.5 py-1 rounded bg-stone-100 text-stone-700 text-[10px] font-bold uppercase tracking-wider" id="qv-badge">
+            Bestseller
+          </div>
+        </div>
+
+        <!-- Right: Specs & Customization -->
+        <div class="space-y-4">
+          <div>
+            <div class="text-[10px] font-bold tracking-widest uppercase text-stone-400 mb-1" id="qv-collection">
+              JONATHAN COLLECTION
+            </div>
+            <h3 class="font-serif text-xl sm:text-2xl font-normal text-stone-900" id="qv-name">
+              Sofa Văng Jonathan 3 Chỗ
+            </h3>
+            <div class="text-xs text-amber-600 font-medium mt-1" id="qv-rating">
+              4.9 ★ (52 đánh giá)
+            </div>
+          </div>
+
+          <!-- Price -->
+          <div class="flex items-baseline gap-3 pb-3 border-b border-stone-100">
+            <span class="text-2xl font-bold text-stone-900" id="qv-price">
+              13.800.000 đ
+            </span>
+            <span class="text-xs text-stone-400 line-through" id="qv-price-original">
+              18.500.000 đ
+            </span>
+          </div>
+
+          <!-- Dimensions & Materials -->
+          <div class="space-y-2 text-xs text-stone-600">
+            <div><strong class="text-stone-900">Kích thước:</strong> <span id="qv-dimensions">D215 x S90 x C82 cm</span></div>
+            <div><strong class="text-stone-900">Vật liệu:</strong> <span id="qv-materials">Vải nỉ tuyết kháng bẩn • Khung sồi E1</span></div>
+          </div>
+
+          <!-- Swatches Selection inside Modal -->
+          <div class="pt-2">
+            <div class="text-xs font-semibold text-stone-900 mb-1.5 flex items-center justify-between">
+              <span>Màu sắc &amp; Chất liệu:</span>
+              <span class="text-stone-500 font-normal" id="qv-selected-color-name">Be cát ấm</span>
+            </div>
+            <div class="flex items-center gap-2.5" id="qv-swatches-container">
+              <!-- Swatches populated by JS -->
+            </div>
+          </div>
+
+          <!-- CTA Actions -->
+          <div class="pt-4 space-y-2">
+            <button type="button" id="qv-request-quote-btn"
+              class="w-full py-3.5 rounded-xl bg-stone-900 hover:bg-black text-white font-semibold text-xs uppercase tracking-wide transition shadow-sm flex items-center justify-center gap-2">
+              <i data-lucide="file-text" class="w-4 h-4"></i>
+              <span>Yêu Cầu Báo Giá &amp; Đặt May Đo</span>
+            </button>
+            <p class="text-[10px] text-stone-400 text-center">
+              * Kỹ sư sẽ gửi bản vẽ 3D và báo giá chính xác qua Zalo trong 15 phút.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================================================================
+       11. QUOTE REQUEST MODAL
+       ====================================================================== -->
+  <div id="quote-modal" class="modal-backdrop fixed inset-0 bg-stone-950/65 z-50 flex items-center justify-center p-4">
+    <div class="modal-box bg-white rounded-2xl max-w-md w-full p-6 sm:p-8 shadow-2xl relative border border-[#e8e5df]">
+      <button type="button" id="quote-modal-close" class="absolute top-5 right-5 text-stone-400 hover:text-stone-900 transition p-1" aria-label="Đóng">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <div class="mb-5">
+        <span class="text-[10px] font-bold text-[#a85a42] uppercase tracking-widest block mb-1">Giá Gốc Tại Xưởng</span>
+        <h3 class="font-serif text-2xl font-normal text-stone-900">
+          Nhận Báo Giá May Đo Chi Tiết
+        </h3>
+        <p class="text-xs text-stone-500 mt-1">
+          Điền thông tin để kỹ sư xưởng Mộc Tinh Hoa gửi bảng bóc tách chi tiết &amp; bản vẽ 3D căn hộ qua Zalo.
+        </p>
+      </div>
+
+      <form id="quote-form" class="space-y-3.5">
+        <div>
+          <label for="modal-name" class="block text-xs font-semibold text-stone-800 mb-1">Họ và tên *</label>
+          <input type="text" id="modal-name" required placeholder="Ví dụ: Nguyễn Văn An"
+            class="w-full px-3.5 py-2.5 rounded-xl border border-stone-200 bg-stone-50 text-xs text-stone-900 focus:outline-none focus:border-stone-900">
+        </div>
+
+        <div>
+          <label for="modal-phone" class="block text-xs font-semibold text-stone-800 mb-1">Số điện thoại / Zalo *</label>
+          <input type="tel" id="modal-phone" required placeholder="Ví dụ: 0988 256 888"
+            class="w-full px-3.5 py-2.5 rounded-xl border border-stone-200 bg-stone-50 text-xs text-stone-900 focus:outline-none focus:border-stone-900">
+        </div>
+
+        <div>
+          <label for="modal-product-name" class="block text-xs font-semibold text-stone-800 mb-1">Sản phẩm hoặc Căn hộ quan tâm</label>
+          <input type="text" id="modal-product-name" placeholder="Ví dụ: Sofa Jonathan + Bàn ăn Seb"
+            class="w-full px-3.5 py-2.5 rounded-xl border border-stone-200 bg-stone-50 text-xs text-stone-900 focus:outline-none focus:border-stone-900">
+        </div>
+
+        <button type="submit"
+          class="w-full py-3.5 rounded-xl bg-stone-900 hover:bg-black text-white font-semibold text-xs uppercase tracking-wide transition shadow-sm mt-2">
+          Xác Nhận Nhận Báo Giá File PDF
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast-notification"
+    class="toast-msg fixed bottom-6 left-6 z-50 px-4 py-3 rounded-xl bg-stone-900 text-white text-xs font-medium max-w-sm flex items-center gap-2.5 shadow-2xl">
+    <i data-lucide="check-circle" class="w-4 h-4 text-emerald-400"></i>
+    <span id="toast-message">Đăng ký thành công! Kỹ sư sẽ liên hệ lại trong 15 phút.</span>
+  </div>
+
+  <!-- Lucide Icons Init -->
+  <script>
+    if (window.lucide && typeof window.lucide.createIcons === 'function') {
+      window.lucide.createIcons();
+    }
+  </script>
+
+  <!-- Castlery Main Logic JS -->
+  <script src="assets/js/main.js?v=20260926_castlery_v1"></script>
+
+</body>
+
+</html>

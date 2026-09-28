@@ -1,78 +1,56 @@
-# Showroom Nội Thất Xưởng Mộc - Landing Page Bán Lẻ Hiện Đại
+# Online Showroom Nội Thất Xưởng Mộc 4.0 - Chuyển Đổi Số Bán Lẻ Trực Tiếp
 
-Trang Landing Page cao cấp dành cho xưởng sản xuất và showroom nội thất đồ gỗ tự nhiên (Óc Chó, Gõ Đỏ, Sồi Mỹ, Hương Đá) bán lẻ trực tiếp tới người tiêu dùng không qua trung gian.
-
----
-
-## 🌟 Tính Năng Nổi Bật
-
-1. **Header & Topbar Chuyên Nghiệp**:
-   - Thanh thông báo ưu đãi xưởng, địa chỉ làng nghề mộc truyền thống.
-   - Logo thương hiệu mộc tinh hoa sang trọng.
-   - Nút gọi Hotline có hiệu ứng rung lắc thu hút và nút Chat Zalo trực tiếp.
-   - Menu responsive mượt mà trên cả máy tính và điện thoại.
-
-2. **Hero Section Ấn Tượng**:
-   - Thông điệp nổi bật: *"Nội Thất Gỗ Tự Nhiên - Trực Tiếp Từ Xưởng Sản Xuất Không Qua Trung Gian"*.
-   - Khẳng định nguồn gốc 100% gỗ tự nhiên chuẩn xuất khẩu FAS, kỹ thuật mộng mộc truyền thống.
-   - Nút hành động kêu gọi nhận báo giá xưởng và khám phá sản phẩm.
-   - Bảng thông số năng lực: 3.500m² nhà xưởng, 15+ năm tuổi nghề, 50+ nghệ nhân, 12.000+ công trình.
-
-3. **Danh Mục Sản Phẩm Nổi Bật (Tabs Lọc Tương Tác)**:
-   - Phân loại rõ ràng: **Tất cả**, **Phòng khách** (Sofa gỗ óc chó, kệ tivi liền tủ rượu), **Phòng ngủ** (Giường ngủ tân cổ điển, tủ áo 4 cánh), **Phòng bếp** (Bàn ăn nguyên tấm, bàn ăn 6-8 ghế).
-   - Mỗi sản phẩm gồm: Hình ảnh chụp nét, tag chất liệu gỗ, thông số kích thước tiêu chuẩn (có nhận may đo), giá gốc xuất xưởng & giá thị trường đối chiếu để thấy rõ mức tiết kiệm 25-35%.
-   - Nút *"Nhận Báo Giá / Đặt Kích Thước"* tự động điền sẵn tên sản phẩm vào bảng popup.
-
-4. **Công Cụ Dự Toán Chi Phí Tự Động (Estimator)**:
-   - Cho phép khách hàng tự chọn: Không gian (Phòng khách, Phòng ngủ, Phòng ăn), Loại gỗ (Óc Chó, Gõ Đỏ, Sồi Mỹ, Hương Đá), Quy mô diện tích.
-   - Hệ thống tự động tính giá xuất xưởng dự kiến và số tiền tiết kiệm được so với showroom trung gian.
-
-5. **Cẩm Nang Phân Biệt & So Sánh 4 Loại Gỗ Tự Nhiên**:
-   - Gỗ Óc Chó Bắc Mỹ (Walnut)
-   - Gỗ Gõ Đỏ Nam Phi (Pachyloba)
-   - Gỗ Sồi Mỹ Nhập Khẩu (Oak)
-   - Gỗ Hương Đá
-
-6. **4 Cam Kết Vàng & Quy Trình 4 Bước**:
-   - 100% Giá xuất xưởng.
-   - Bảo hành 10 năm, đổi mới nếu phát hiện pha tạp mối mọt.
-   - Khảo sát, đo đạc & thiết kế 3D miễn phí tại nhà.
-   - Đặc quyền về xưởng kiểm tra mộc thô trước khi phun sơn.
-
-7. **Bộ Sưu Tập Không Gian Mẫu & Công Trình Bàn Giao Thực Tế**.
-
-8. **Footer Làng Nghề & Tiện Ích Liên Hệ Nhanh**:
-   - Địa chỉ xưởng tại Làng nghề mộc Thạch Thất, Hà Nội.
-   - Form đăng ký nhận báo giá & catalog vân gỗ qua Zalo.
-   - Nút gọi điện & Zalo nổi cố định ở góc màn hình.
+Dự án Landing Page thế hệ mới: Chuyển đổi toàn diện từ mô hình bán buôn mộc truyền thống sang **Showroom Trực Tuyến 4.0 (Online Showroom)** kết hợp chuyển đổi số để tiếp cận trực tiếp khách hàng lẻ (gia chủ căn hộ chung cư, nhà phố, studio) trong bối cảnh thị trường nội thất cạnh tranh khốc liệt.
 
 ---
 
-## 🚀 Hướng Dẫn Sử Dụng & Chạy Thử Ngay
+## 🚀 Đột Phá Chiến Lược & Tính Năng Chuyển Đổi Số
 
-### Cách 1: Chạy trực tiếp (Không cần cài đặt bất kỳ công cụ nào)
-- Chỉ cần nhấp đúp vào tệp `index.html` hoặc chuột phải chọn **Open with Google Chrome / Safari / Edge**. Toàn bộ giao diện, hình ảnh, icon và hiệu ứng sẽ chạy mượt mà ngay lập tức.
+### 1. Định Vị Thương Hiệu & Minh Bạch Vật Liệu Chuẩn Xanh E1
+- **Vật liệu cao cấp:** 100% sử dụng gỗ công nghiệp chống ẩm (MDF Lõi Xanh Thái Lan, MDF Lõi Xanh An Cường, HDF siêu chịu nước, Nhựa đặc Picomat cho khoang chậu rửa).
+- **Minh bạch sức khỏe:** Kiểm định nồng độ phát thải Formaldehyde đạt chuẩn **E1 / CARB-P2** châu Âu (không mùi hắc cay mắt, an toàn tuyệt đối cho trẻ nhỏ và phụ nữ mang thai).
+- **Phá vỡ rào cản địa lý (Distance Breaker):** Dịch vụ gửi **Hộp Mẫu Gỗ Thực Tế (Sample Box 8 màu vân gỗ)** miễn phí tận nhà trong 24h và dịch vụ kỹ sư mang thước Laser đo đạc thực tế tại Hà Nội và các tỉnh lân cận (Hưng Yên, Bắc Ninh, Hải Dương, Vĩnh Phúc...).
+- **Cẩm nang bảo quản:** Hướng dẫn chi tiết cách vệ sinh bề mặt Melamine, Acrylic noline, đảm bảo độ bền 15-20 năm.
 
-### Cách 2: Chạy qua Live Server / Local Web Server
-Nếu bạn muốn dùng qua môi trường dev server (cổng 3000 hoặc 5500):
-```bash
-# Sử dụng npx serve tiện lợi
-npx serve .
+### 2. Hệ Thống Bộ Lọc Thông Minh Đa Chiều (Advanced Interactive Filters)
+- **Tìm kiếm theo từ khóa:** Nhập tên sản phẩm (Sofa, Giường bục, Tủ bếp Acrylic, Kệ TV...).
+- **Lọc theo chất liệu:** MDF Lõi Xanh, Cánh Acrylic Noline, Melamine Chống Trầy, Laminate Vân Đá.
+- **Lọc theo diện tích không gian cá nhân hóa:**
+  - Căn hộ Studio / Phòng nhỏ (<35m²)
+  - Chung cư 2 phòng ngủ (50 - 75m²)
+  - Nhà phố / Căn 3 phòng ngủ (>80m²)
+- **Lọc theo tông màu & vân gỗ:** Vân Sồi Ấm, Nâu Óc Chó, Xám Bê Tông, Trắng Sứ.
+- **Tự động đếm và hiển thị số lượng kết quả theo thời gian thực.**
 
-# Hoặc bằng Python tích hợp sẵn
-python3 -m http.server 8000
-```
-Sau đó truy cập: `http://localhost:8000` hoặc đường dẫn hiển thị trên terminal.
+### 3. Gói Combo & Phối Cảnh Nội Thất Đồng Bộ
+- **Combo Căn Hộ Studio Full Tiện Nghi (28.5tr):** Giường bục thông minh + Tủ áo kịch trần + Bàn làm việc + Tủ bếp mini.
+- **Combo Trọn Căn 2 Phòng Ngủ (58tr):** Phòng khách thời thượng + Phòng ngủ Master + Phòng ngủ con + Tủ bếp Acrylic (Tiết kiệm 22 triệu so với mua lẻ).
+- **Combo Luxury Cánh Kính (89tr):** Hệ cánh kính viền nhôm đèn LED tự động, vách tivi vân đá sang trọng.
+
+### 4. Công Cụ Tự Thiết Kế 3D & Tính Giá Xuất Xưởng (3D Configurator)
+- Khách hàng tự do kéo thanh trượt kích thước (2.0m - 6.0m), chọn chiều cao trần nhà, loại cốt gỗ (Thái Lan vs. An Cường E1 vs. HDF), bề mặt phủ và phụ kiện (Bản lề inox vs. Hafele Đức).
+- Hệ thống tự động tính giá xuất xưởng theo thời gian thực, đối chiếu giá thị trường và hiển thị số tiền tiết kiệm được.
+- Nút bấm xuất file báo giá và tải bản vẽ 3D tương ứng.
+
+### 5. Tối Ưu Tỷ Lệ Chuyển Đổi (CRO / Call To Action)
+- Nút Chat Zalo trực tiếp với kỹ sư kỹ thuật xưởng.
+- Nút Gọi Hotline xưởng với hiệu ứng rung lắc thu hút.
+- Form Đăng ký nhận Hộp Mẫu Gỗ Thực Tế 8 Màu tận nhà (Free 100%).
+- Form Đặt lịch kỹ sư mang thước Laser đo đạc tận nhà & lên phương án 3D miễn phí.
 
 ---
 
-## 🛠️ Hướng Dẫn Tùy Biến Thông Tin Xưởng Của Bạn
+## 🛠️ Hướng Dẫn Sử Dụng & Tùy Biến
 
-1. **Đổi số Hotline & Zalo**:
-   - Mở tệp `index.html`, tìm kiếm `0988256888` và thay thế bằng số điện thoại/Zalo của xưởng bạn.
-2. **Đổi tên thương hiệu**:
-   - Tìm kiếm `MỘC TINH HOA` trong `index.html` và đổi sang tên xưởng hoặc thương hiệu bạn mong muốn.
-3. **Đổi địa chỉ xưởng**:
-   - Tìm đến khu vực `<footer id="contact">` trong `index.html` để cập nhật địa chỉ xưởng mộc và showroom của bạn.
-4. **Thêm bớt sản phẩm**:
-   - Tìm khối `<article class="product-item ...">` trong `index.html`, bạn có thể nhân bản (copy-paste) và cập nhật hình ảnh, tên, giá bán và chất liệu gỗ tùy ý.
+### Chạy Thử Ngay:
+1. Nhấp đúp vào tệp `index.html` để mở ngay trên trình duyệt (Chrome, Safari, Edge...).
+2. Hoặc xem trực tiếp qua máy chủ cục bộ:
+   ```bash
+   python3 -m http.server 3456
+   ```
+   Sau đó truy cập: `http://localhost:3456`
+
+### Tùy Biến Thông Tin:
+- **Số Hotline & Zalo:** Mở `index.html`, tìm kiếm `0988256888` và thay bằng số điện thoại của bạn.
+- **Tên Thương Hiệu:** Tìm `MỘC TINH HOA 4.0` để thay đổi tên thương hiệu.
+- **Bảng Giá & Công Thức Dự Toán:** Mở `assets/js/main.js`, chỉnh sửa thông số trong object `roomPresetData` hoặc `coreMultipliers`.
